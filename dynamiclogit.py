@@ -286,13 +286,13 @@ if __name__ == "__main__":
     print("Fitting an exp. function to an exponentially-generated dataset")  
     dataexp = pd.read_csv("Datasets\Exp_Dataset.csv")    
     
-    # Linear maintenance cost function
+    # Exponential maintenance cost function
     def exp_cost(s, params):
         theta1_1, = params
         return np.exp(s*theta1_1)
     
     # Initialization
-    exp_to_exp = DynamicLogit(dataexp, "Choice", "State", p, lin_cost, npars=2)
+    exp_to_exp = DynamicLogit(dataexp, "Choice", "State", p, exp_cost, npars=2)
     
     # Fitting the likelihood function
     exp_to_exp.fit_likelihood()
