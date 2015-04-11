@@ -6,9 +6,9 @@ Created on Fri Apr 10 18:16:50 2015
 """
 import numpy as np
 import scipy.optimize as opt
-import matplotlib as mpl
+import pandas as pd
 from matplotlib import pyplot as plt
-from IPython.core.pylabtools import figsize
+
 
 class DynamicLogit(object):
     def __init__(self, data, Y, X, p, MF, npars):
