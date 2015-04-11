@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Apr 10 18:16:50 2015
-
-@author: Quentin
+This library defines a DynamicLogit class, which is used as a statistical
+workbench to evaluate single-agent choice models in which the utility is
+dynamic (in the fashion of Rust 1987).
 """
 import numpy as np
 import scipy.optimize as opt
