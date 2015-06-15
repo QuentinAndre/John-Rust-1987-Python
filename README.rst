@@ -18,7 +18,7 @@ John-Rust-1987-Python provides a Python implementation of the single agent dynam
 Content
 =======
 
-1. *Data Generation and Likelihood Fit.ipynb**: An IPython notebook describing the different steps used to:
+1. **Data Generation and Likelihood Fit.ipynb**: An IPython notebook describing the different steps used to:
  * Generate the bus mileage data
  * Compute the forward-looking (dynamic) utility of the agent
  * Generate four datasets of bus engine replacement:
