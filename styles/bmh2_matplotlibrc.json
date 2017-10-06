@@ -1,0 +1,21 @@
+{
+  "lines.linewidth": 2.0,
+  "axes.edgecolor": "#bcbcbc",
+  "patch.linewidth": 0.5,
+  "legend.fancybox": true,
+  "axes.color_cycle": [
+    "#1BE61B",
+    "#FF0000",
+    "#2606EC",
+    "#CEFFCE",
+    "#FFAB81",
+    "#C8E0FF",
+    "#E4349B"
+  ],
+  "axes.facecolor": "#eeeeee",
+  "axes.labelsize": "large",
+  "patch.edgecolor": "#eeeeee",
+  "axes.titlesize": "x-large",
+  "legend.fontsize": 15,
+  "legend.markerscale": 2
+}
